@@ -1,0 +1,15 @@
+{"CrewMembers":
+[
+	{"name":"Luffy", "role": "Captain", "battleStyle": "Brawler"},
+	{"name":"Zoro", "role": "1st Mate", "battleStyle": "Swordsman"},
+	{"name":"Nami", "role": "Navigator", "battleStyle": "Magician"},
+	{"name":"Usopp", "role": "Blacksmith", "battleStyle": "Sniper"},
+	{"name":"Sanji", "role": "Cook", "battleStyle": "Brawler"},
+	{"name":"Chopper", "role": "Doctor", "battleStyle": "Brawler"},
+	{"name":"Robin", "role": "Scholar", "battleStyle": "Magician"},
+	{"name":"Franky", "role": "Shipwright", "battleStyle": "Brawler/Magician"},
+	{"name":"Brook", "role": "Musician", "battleStyle": "Swordsman"},
+	{"name":"Jimbei", "role": "Helmsman", "battleStyle": "Brawler"}
+]
+}
+	
