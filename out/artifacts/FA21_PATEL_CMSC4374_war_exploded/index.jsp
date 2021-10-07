@@ -8,7 +8,7 @@
 <p1>Form Handler</p1>
 <br><br><br><br>
 
-<form action="/FormHandler" method="post">
+<form action="FormHandler" method="post">
 
     <label for="firstName"> Enter your name here. </label>
     <input type="text" id="firstName" name="firstName"><br><br><br>
