@@ -1,27 +1,36 @@
-package edu.ben.controlers;
+package edu.ben.controllers;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
 
-//@WebServlet(name = "FormHandler", value = "/FormHandler")
-@WebServlet(urlPatterns = "/FormHandler")
+
+@WebServlet(name = "FormHandler", value = "/FormHandler")
+//@WebServlet(urlPatterns = "/FormHandler")
 public class FormHandler extends HttpServlet {
+    private String message;
 
-    public void doP(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    public void init() {
+        message = "Hello World!";
+    }
+
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
 
         String firstName = request.getParameter("firstName");
 
         response.setContentType("text/html");
+        RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
+        rd.forward(request, response);
 
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1> Welcome to the Black Parade" + firstName + "</h1>");
-        out.println("</body></html>");
-    }
+      System.out.println(firstName);
 
-    public void destroy() {
+
+
     }
 }
