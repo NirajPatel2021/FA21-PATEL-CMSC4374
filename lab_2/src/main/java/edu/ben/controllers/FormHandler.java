@@ -1,11 +1,11 @@
-package edu.ben.controllers;
+package edu.ben.controlers;
 
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "FormHandler", value = "/FormHandler")
-//@WebServlet(urlPatterns = "/FormHandler")
+//@WebServlet(name = "FormHandler", value = "/FormHandler")
+@WebServlet(urlPatterns = "/FormHandler")
 public class FormHandler extends HttpServlet {
 
     public void doP(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -18,7 +18,7 @@ public class FormHandler extends HttpServlet {
         // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + firstName + "</h1>");
+        out.println("<h1> Welcome to the Black Parade" + firstName + "</h1>");
         out.println("</body></html>");
     }
 
