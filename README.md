@@ -5,9 +5,7 @@ Retrospective:<br />
         Time taken to complete assignment: 300 Minutes <br />
         I have learned that a servlet is useful in manipulating input that is provided by the user. <br />
         This lab took much longer than I estimated because of Tomcat configuration problems. <br />
-        While it was probably not the goal of this assignment, this has greatly improved my ability to use Tomcat. <br />
-
-    
+        While it was probably not the goal of this assignment, this has greatly improved my ability to use Tomcat. <br /> <br />
     lab_1: <br />
         Time taken to complete assignment: 180 Minutes <br />
         I have learned that an XmlHttpRequest is useful because it updates the webpage live. <br />
