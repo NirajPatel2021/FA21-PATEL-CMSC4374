@@ -4,8 +4,8 @@ import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-//@WebServlet(name = "FormHandler", value = "/FormHandler")
-@WebServlet(urlPatterns = "/FormHandler")
+@WebServlet(name = "FormHandler", value = "/FormHandler")
+//@WebServlet(urlPatterns = "/FormHandler")
 public class FormHandler extends HttpServlet {
 
     public void doP(HttpServletRequest request, HttpServletResponse response) throws IOException {
