@@ -14,8 +14,4 @@
         <url-pattern>/FormHandler</url-pattern>
     </servlet-mapping>
 
-
-
-
 </web-app>
-

@@ -4,21 +4,21 @@ import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "FormHandler", value = "/FormHandler")
+//@WebServlet(name = "FormHandler", value = "/FormHandler")
+@WebServlet(urlPatterns = "/FormHandler")
 public class FormHandler extends HttpServlet {
-    private String message;
 
-    public void init() {
-        message = "Hello World!";
-    }
+    public void doP(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+
+        String firstName = request.getParameter("firstName");
+
         response.setContentType("text/html");
 
         // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
+        out.println("<h1>" + firstName + "</h1>");
         out.println("</body></html>");
     }
 
