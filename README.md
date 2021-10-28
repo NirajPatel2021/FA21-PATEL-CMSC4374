@@ -1,6 +1,12 @@
 # FA21-PATEL-CMSC4374
 
 Retrospective:<br /><br />
+    lab_3: <br />
+        Time taken to complete assignment: 480 Minutes <br />
+        I have learned that Angular is useful in making websites with smooth navigation. It makes a website look and feel like an application. <br />
+        This lab took really long because I wanted to create a custom API with my own data. Figuring out a way to do this took about 2-3 hours. <br />
+        I ended up using Retool, a REST API generator to achieve this. <br />
+        This assignment has significantly improved my skills in Angular, more specifically, creating and managing components.  <br /> <br />
     lab_2: <br />
         Time taken to complete assignment: 300 Minutes <br />
         I have learned that a servlet is useful in manipulating input that is provided by the user. <br />
