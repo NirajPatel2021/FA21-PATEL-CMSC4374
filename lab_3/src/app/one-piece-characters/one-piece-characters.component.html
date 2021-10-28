@@ -1,0 +1,20 @@
+<br><br><br><br>
+<table class="table table-bordered table-striped display-5 text-primary table-hover">
+        <thead>
+            <tr>
+                <th >ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Battle Style</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let onePieceCharacters of onePieceCharacters" >
+                <td class="table-danger"><span>{{onePieceCharacters.id}}</span></td>
+                <td class="table-warning"><span>{{onePieceCharacters.Name}} </span></td>
+                <td class="table-success"><span>{{onePieceCharacters.Role}}</span></td>
+                <td class="table-info"><span>{{onePieceCharacters.BattleStyle | custom: onePieceCharacters.BattleStyle}}</span></td>
+                
+            </tr>
+        </tbody>
+    </table>
