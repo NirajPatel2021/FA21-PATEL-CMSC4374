@@ -1,6 +1,12 @@
 # FA21-PATEL-CMSC4374
 
 Retrospective:<br /><br />
+    lab4: <br />
+        Time taken to complete assignment: 600 Minutes <br />
+        I have learned how to create custom APIs using Spring. More Specifically, I learned how to create the Get, Post, and Put Methods.<br />
+        I was able to test these methods using the Postman Application, and they were successfull. <br />
+        The next step would be to incorporate these methods into angular components. <br />
+        This assignment has significantly improved my skills in Spring, thus enhancing my ability to make comprehensive websites.  <br /> <br />
     lab_3: <br />
         Time taken to complete assignment: 480 Minutes <br />
         I have learned that Angular is useful in making websites with smooth navigation. It makes a website look and feel like an application. <br />
