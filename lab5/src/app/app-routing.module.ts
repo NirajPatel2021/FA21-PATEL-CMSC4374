@@ -8,9 +8,7 @@ const routes: Routes = [
   {path: 'aboutme', component: AboutmeComponent},
   {path: 'goalsandaspirations', component: GoalsandaspirationsComponent},
   {path: 'technologies', component: TechnologiesComponent},
-
-
-
+  
 
 ];
 

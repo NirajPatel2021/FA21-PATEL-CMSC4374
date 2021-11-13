@@ -35,7 +35,7 @@ export class AboutmeComponent implements OnInit {
   }
 
   getAllData() {
-    this.http.get(this.url).toPromise().then(data => {
+    this.http.get('assets/aboutme.json').subscribe(data => {
       // console.log(data[3 as never])
       for (let i in data) {
         let newdata = <data>({
@@ -45,7 +45,6 @@ export class AboutmeComponent implements OnInit {
           string2: data[i as never].string2,
           // @ts-ignore
           string3: data[i as never].string3
-
         })
         this.data.push(newdata)
       }

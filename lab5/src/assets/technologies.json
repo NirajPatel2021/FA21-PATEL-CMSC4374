@@ -23,7 +23,7 @@
     "string3": "I used JSP to create the front end of that airline reservation website."},
   {"string1":"https://adashen.gallerycdn.vsassets.io/extensions/adashen/vscode-tomcat/0.12.1/1635499457155/Microsoft.VisualStudio.Services.Icons.Default",
     "string2": "Tomcat",
-    "string3": "I used Tomcat to host an airline reservation website."},
+    "string3": "I used Tomcat to host the airline reservation website."},
 
   {"string1":"https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
     "string2": "Bootstrap",
@@ -37,6 +37,6 @@
     "string3": "I used PyCharm to write the Python code for simulating a virus."},
   {"string1":"https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png",
     "string2": "VS Code",
-    "string3": "I used VS Code for easier/quicker viewing/editing of all my code."}
+    "string3": "I used VS Code for a lightweight access to all my code."}
 
 ]
