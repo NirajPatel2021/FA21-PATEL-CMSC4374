@@ -4,7 +4,7 @@ Retrospective:<br /><br />
     lab5: <br />
         Time taken to complete assignment: 600 Minutes <br />
         I have learned how to use http callouts to load data from a local json file. I also learned how to display images with their URL. <br />
-        The most challenging aspect of this lab for me was to iterate over the data from the json file. <br />
+        The most challenging aspect of this lab for me was to iterate over the data from the json file and save that data in a way that I could use it later. <br />
         I also tried to publish this page on github, but failed due to login authentication error. <br />
         This assignment has increased my familiarity with Angular. I also learned another way to store and load data.  <br /> <br />
     lab4: <br />
