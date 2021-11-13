@@ -1,0 +1,42 @@
+[
+
+  {"string1":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTiTvC39iFN0YPwziixoRGxJrqdTmYH-YoqbylrmCi_Tfv88xqz2gEqN73AH-yJQ5on-c&usqp=CAU",
+    "string2": "Angular",
+    "string3": "I used Angular to create this website and the front end of a social media website."
+  },
+  {"string1":"https://images.ctfassets.net/23aumh6u8s0i/17rXel2g1r2rxiGkpeHNSy/dd64d06b65c7e095b6bcdeffecbd0a9f/spring_boot_icon.png",
+    "string2": "Spring",
+    "string3": "I used Spring to create the backend of that social media website."},
+
+  {"string1":"https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png",
+    "string2": "Python",
+    "string3": "I used Python to simulate the spread of viruses and some AI."},
+  {"string1":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSRHPMY--I4r4M4nJ2zbZoyujUaWKKV4rSmAAczxeQiTUffxEpyYvJym2QBeg1go_fucc&usqp=CAU",
+    "string2": "Java",
+    "string3": "I used Java to create the backend of an airline reservation website."},
+  {"string1":"https://testunity.com/wp-content/uploads/2016/11/JUnit.png",
+    "string2": "JUnit",
+    "string3": "I used JUnit to test Java code."},
+
+  {"string1":"https://image.flaticon.com/icons/png/512/28/28968.png",
+    "string2": "JSP",
+    "string3": "I used JSP to create the front end of that airline reservation website."},
+  {"string1":"https://adashen.gallerycdn.vsassets.io/extensions/adashen/vscode-tomcat/0.12.1/1635499457155/Microsoft.VisualStudio.Services.Icons.Default",
+    "string2": "Tomcat",
+    "string3": "I used Tomcat to host an airline reservation website."},
+
+  {"string1":"https://avatars.githubusercontent.com/u/2918581?s=280&v=4",
+    "string2": "Bootstrap",
+    "string3": "I used Bootstrap to decorate the airline reservation website."},
+
+  {"string1":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/1024px-IntelliJ_IDEA_Icon.svg.png",
+    "string2": "IntelliJ",
+    "string3": "I used IntelliJ to write the code for the airline reservation and social media website."},
+  {"string1":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/PyCharm_Icon.svg/1200px-PyCharm_Icon.svg.png",
+    "string2": "PyCharm",
+    "string3": "I used PyCharm to write the Python code for simulating a virus."},
+  {"string1":"https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png",
+    "string2": "VS Code",
+    "string3": "I used VS Code for easier/quicker viewing/editing of all my code."}
+
+]

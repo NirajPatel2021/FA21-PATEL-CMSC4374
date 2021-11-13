@@ -1,1 +1,15 @@
 <p>technologies works!</p>
+  <thead>
+  <tr>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <tr *ngFor="let item of data">
+    <img src="{{item.string1}}" width="100" height="100" >
+
+    <td class="table-warning"><span>{{item.string2}} </span ></td>
+
+    <td class="table-warning"><span>{{item.string3}} </span></td>
+  </tr>
+  </tbody>
