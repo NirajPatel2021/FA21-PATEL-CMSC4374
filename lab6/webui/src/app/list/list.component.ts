@@ -101,7 +101,7 @@ export class ListComponent implements OnInit {
           item: response[i].item,
           done: response[i].done,
         })
-        if (newitem.item !== "THIS ITEM IS DELETED" && newitem.item == data.item)
+        if (newitem.item !== "THIS ITEM IS DELETED" && newitem.item.includes(data.item))
         {
           this.myItems.push(newitem)
         }
