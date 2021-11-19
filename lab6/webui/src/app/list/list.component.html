@@ -1,0 +1,26 @@
+<br><br>
+<p style="color:DodgerBlue; font-size: 20px;"> These are all your to do list items! </p>
+
+<table class="table table-bordered table-striped display-5 text-primary table-hover">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Item</th>
+    <th>Done</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <tr *ngFor="let item of myItems">
+    <td class="table-warning">
+      <span>{{item.id}} </span>
+    </td>
+    <td class="table-warning"><span>{{item.item}} </span>
+    </td>
+    <td class="table-warning"><span>{{item.done}} </span>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+
