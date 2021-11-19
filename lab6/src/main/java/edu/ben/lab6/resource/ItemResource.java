@@ -38,10 +38,17 @@ public class ItemResource {
         return this.itemService.updateItem(item);
     }
 
-    @DeleteMapping(value = "/deleteItem/{id}", consumes = "application/json", produces = "application/json")
-    public ItemDTO deleteItem(@PathVariable int id) {
-        return this.itemService.deleteItem(id);
+    @PutMapping(value = "/markDone", consumes = "application/json", produces = "application/json")
+    public void markDone(@RequestBody ItemDTO item) {
+        this.itemService.markDone(item);
     }
+
+    @DeleteMapping(value = "/deleteItem/{id}")
+    public void deleteItem(@PathVariable int id) {
+
+        this.itemService.deleteItem(id);
+    }
+
 
 
 }

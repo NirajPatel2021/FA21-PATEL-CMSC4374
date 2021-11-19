@@ -1,12 +1,21 @@
 <br><br>
 <p style="color:DodgerBlue; font-size: 20px;"> These are all your to do list items! </p>
 
+<div class="column" style="margin: 20px; width: 40%;" >
+  <p style="color:Green; font-size: 20px;"> Add Item Here! </p>
+  <form (submit)="createItem({id:0,item:tempItem,done:tempDone})" method="post">
+    <input type="text" style="color:MediumSeaGreen;font-size: 30px; border-style: solid; border-color: MediumSeaGreen;"
+           name="itembody" placeholder="Write your Item here" [(ngModel)]="tempItem"/> <br><br>
+    <input style="margin:5px; display: inline-block" class="btn btn-success" type="submit"/>
+  </form>
+</div>
+
 <table class="table table-bordered table-striped display-5 text-primary table-hover">
   <thead>
   <tr>
     <th>ID</th>
     <th>Item</th>
-    <th>Done</th>
+    <th>Status</th>
   </tr>
   </thead>
   <tbody>
@@ -17,7 +26,24 @@
     </td>
     <td class="table-warning"><span>{{item.item}} </span>
     </td>
-    <td class="table-warning"><span>{{item.done}} </span>
+    <div *ngIf="((item.done))">
+      <span style="color:MediumSeaGreen;font-size: 30px; border-style: solid; border-color: MediumSeaGreen;">Done!</span>
+    </div>
+
+    <div *ngIf="(!(item.done))">
+      <button style="margin:5px; display: inline-block" class="btn btn-primary" (click)="markDone({id:item.id,item:item.item,done:item.done})" tabindex="0">
+        <span>Mark Done</span>
+      </button>
+    </div>
+
+
+
+
+
+    <td>
+      <button style="margin:5px; display: inline-block" class="btn btn-danger" (click)="deleteItem(item.id)" tabindex="0">
+        <span>Delete</span>
+      </button>
     </td>
   </tr>
   </tbody>

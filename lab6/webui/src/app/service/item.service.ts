@@ -29,6 +29,9 @@ export class ItemService {
     return this.http.delete(`api/list/deleteItem/${id}`);
   }
 
+  public markDone = (data:any): Observable<{id:number, item:string, done:boolean}> => {
+    return this.http.put<{ id: number; item: string; done: boolean; }>(`api/list/markDone`,data);
+  }
 
 
 
