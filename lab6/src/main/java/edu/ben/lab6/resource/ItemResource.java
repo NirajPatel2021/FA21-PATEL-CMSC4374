@@ -9,7 +9,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.Map;
 
 @RestController()
-@RequestMapping(value = "api/list", produces = "application/json")
+@RequestMapping(value = "api/list")
 public class ItemResource {
 
     private final ItemService itemService;
@@ -28,17 +28,17 @@ public class ItemResource {
         return itemService.getAllItems();
     }
 
-    @PostMapping(value = "/createItem", consumes = "application/json", produces = "application/json")
+    @PostMapping(value = "/createItem")
     public ItemDTO createItem(@RequestBody ItemDTO item) {
         return this.itemService.createItem(item);
     }
 
-    @PutMapping(value = "/updateItem", consumes = "application/json", produces = "application/json")
+    @PutMapping(value = "/updateItem")
     public ItemDTO updateItem(@RequestBody ItemDTO item) {
         return this.itemService.updateItem(item);
     }
 
-    @PutMapping(value = "/markDone", consumes = "application/json", produces = "application/json")
+    @PutMapping(value = "/markDone")
     public void markDone(@RequestBody ItemDTO item) {
         this.itemService.markDone(item);
     }
