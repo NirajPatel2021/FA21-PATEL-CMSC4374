@@ -1,6 +1,12 @@
 # FA21-PATEL-CMSC4374
 
 Retrospective:<br /><br />
+   lab6: <br />
+        Time taken to complete assignment: 300 Minutes <br />
+        This assignment is very similar to what we have done before. The only thing that is new is the search function. <br />
+        Speaking of which, the main thing I learned was how to install a search function into my angular apps. <br />
+        I also took this chance to figure out how to make the update text interface more user friendly. <br />
+        I am now better prepared for the final project. <br /> <br />
     lab5: <br />
         Time taken to complete assignment: 600 Minutes <br />
         I have learned how to use http callouts to load data from a local json file. I also learned how to display images with their URL. <br />
