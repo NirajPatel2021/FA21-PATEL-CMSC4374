@@ -12,21 +12,24 @@ import { BlankComponent } from './blank/blank.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DatePageComponent,
-    NotFoundPageComponent,
-    OnePieceCharactersComponent,
-    CustomPipe,
-    BlankComponent,
-    
+    declarations: [
+        AppComponent,
+        DatePageComponent,
+        NotFoundPageComponent,
+        OnePieceCharactersComponent,
+        CustomPipe,
+        BlankComponent,
+
     ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule
+    ],
+    providers: [],
+    exports: [
+        CustomPipe
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

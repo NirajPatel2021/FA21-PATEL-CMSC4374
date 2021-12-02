@@ -11,6 +11,7 @@ export class OnePieceCharacters {
   }
 }
 
+
 @Component({
   selector: 'app-one-piece-characters',
   templateUrl: './one-piece-characters.component.html',
@@ -19,7 +20,7 @@ export class OnePieceCharacters {
 export class OnePieceCharactersComponent implements OnInit {
 
   onePieceCharacters: OnePieceCharacters[] = [];
-  
+
   constructor(
     private httpClient: HttpClient
   ) { }
